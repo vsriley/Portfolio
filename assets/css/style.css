@@ -1,3 +1,72 @@
+body{
+    background-image: url("../images/swirl_patternBackground.png")
+}
+/*Name at top of page*/
+h1{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+/*create a div that encompases both h2 and p so that the border is around both?*/
+h2{
+    color: #4aaaa5;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-size: 32px;
+    border-bottom: 5px solid #cccccc;
+}
+/*boxes to label portfolio pieces*/
+h3{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+/*paragraph on the main index*/
+p{
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/*Contact box on contact page*/
+form{
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/*Input boxes on contact page for name and email*/
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+}
+/*Input box for message on contact page*/
+#messageInput{
+    padding-bottom: 200px;
+    box-sizing: border-box;
+}
+/*Submit button on contact page*/
+#submitButton{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;
+    padding: 8px 20px 8px 20px;
+}
+img{
+    width: 200px;
+}
+/*Personal image on front page*/
 #bio-image{
     width: 200px;
+}
+/*Format links for page direction*/
+a{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+/*Footer for bottom of page*/
+#footer{
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-top: 5px solid #4aaaa5;
 }
