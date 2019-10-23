@@ -59,18 +59,15 @@ h2{
 .portfolioImage{
     position: relative;
     margin: 20px;
-/*    width: 50%;
-    float: left; */
+    width: 20%;
+    float: left;
 }
-/*should clear the float?*/
+/*should clear the float*/
 .clearfix::after {
-    content: “”;
+    content: " ";
     display: block;
     clear: both;
-}
-* {
-    box-sizing: border-box;
-}    
+  }   
 /*boxes to label portfolio pieces*/
 h3{
     position: absolute;
