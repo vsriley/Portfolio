@@ -36,6 +36,7 @@ a{
 .container{
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 50px;
     background-color: #ffffff;
     border: 3px solid #dddddd;
     width: 960px;
@@ -54,10 +55,22 @@ h2{
     margin-right: 20px;
     margin-left: 20px;
 }
+/*portfolio images*/
 .portfolioImage{
     position: relative;
     margin: 20px;
+/*    width: 50%;
+    float: left; */
 }
+/*should clear the float?*/
+.clearfix::after {
+    content: “”;
+    display: block;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}    
 /*boxes to label portfolio pieces*/
 h3{
     position: absolute;
