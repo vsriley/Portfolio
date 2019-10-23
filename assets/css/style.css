@@ -104,9 +104,29 @@ a{
     color: #777777;
     text-decoration: none;
 }
+/*Everything but the footer*/
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -30px;
+}
 /*Footer for bottom of page*/
-#footer{
+.footer{
     background-color: #666666;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 8px;
+    color: #ffffff;
     border-top: 8px solid #4aaaa5;
+    height: 530x;
+    width: 100%;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.push{
+    height: 30px;
 }
