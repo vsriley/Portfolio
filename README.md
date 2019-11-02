@@ -6,7 +6,9 @@ This project was created to showcase my future work to potential clients or empl
 The portfolio page will eventually link to my individual applications.  The Contact page will eventually be linked to allow others to communicate with me.
 This project is important for my success in the coding industry. It is both a reflection of myself and of my abilities as a coder.
 
-The main challenge in this project was getting the positioning correct for the navigation bar and the portfolio pictures. In the future, the navigation bar will be replaced by a Bootstrap navigation bar.
+The portfolio has further been edited using Bootstrap to create a layout that is mobile responsive. The navigation bar and the sticky footer were changed to include Bootstrap as well.
+Honestly, the biggest challenge that I faced in this project was simply changing the font color of my name from black to white. 
+I ended up creating an id to change the font color. After trying class after class and using the chrome inspector, I could not find the class that allowed for me to change the font color.
 
 
 ## Installation
