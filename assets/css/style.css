@@ -162,3 +162,20 @@ html, body{
 .push{
     height: 10px;
 }
+/*create better margins between 765-991px*/
+@media screen and (max-width: 991px){
+    p{
+        margin-left: 50px;
+    }
+    .secondImage{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 765px){
+    p{
+        margin-left: 20px;
+    }
+    .secondImage{
+        margin-left: 20px;
+    }
+}
