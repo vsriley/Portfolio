@@ -10,8 +10,8 @@ h1{
     margin-bottom: 0;
     color: #666666;
     background-color: #7698B6;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 28px;
+    font-family: 'Volkhov', Times, 'Times New Roman', serif;
+    font-size: 32px;
     padding: 20px;
     width: 200px;
     font-weight: bold;
@@ -32,7 +32,7 @@ h2{
     background-color: #ffffff;
     border-color: #cccccc;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 32px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -40,7 +40,7 @@ h2{
     margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 20px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-family: 'Volkhov', Times, 'Times New Roman', serif;
 }
 /*portfolio images*/
 .portfolioImage{
@@ -109,8 +109,13 @@ img{
 #bio-image{
     position: relative;
     float: left;
-    width: 20px;
+    width: 200px;
     margin: 20px;
+}
+i{
+    margin-left: 20px;
+    color: #7698B6;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 /*Format links for page direction*/
 a{
@@ -119,6 +124,11 @@ a{
     text-decoration: none;
     font-size: 18px;
 }
+.contactInfo{
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+}
 /*navbar*/
 .navbar-brand, 
 .navbar-light,
@@ -126,8 +136,8 @@ a{
 h1{
     color: #ffffff;
     background-color: #7698B6;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 28px;
+    font-family: 'Volkhov', Times, 'Times New Roman', serif;
+    font-size: 32px;
     border: 2px solid #dddddd;
     padding-right: 20px;
     padding-left: 20px;
