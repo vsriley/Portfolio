@@ -63,9 +63,13 @@ h3{
     padding-top: 10px;
     padding-bottom: 10px;
     width: 250px;
+    height: 188.75;
 }
 h3:hover{
     opacity: 0.5;
+}
+.gitHubRepo{
+    margin-left: 95px;
 }
 /*paragraph on the main index*/
 p{
